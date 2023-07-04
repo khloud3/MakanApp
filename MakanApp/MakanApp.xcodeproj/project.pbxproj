@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86788BF82A3F632700CBA564 /* MakanAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788BF72A3F632700CBA564 /* MakanAppApp.swift */; };
+		86788BFA2A3F632700CBA564 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788BF92A3F632700CBA564 /* ContentView.swift */; };
+		86788BFC2A3F632800CBA564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86788BFB2A3F632800CBA564 /* Assets.xcassets */; };
+		86788BFF2A3F632800CBA564 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86788BFE2A3F632800CBA564 /* Preview Assets.xcassets */; };
+		86788C072A3F639300CBA564 /* PlacesDataSerivces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C062A3F639300CBA564 /* PlacesDataSerivces.swift */; };
+		86788C0A2A3F63E300CBA564 /* PlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C092A3F63E300CBA564 /* PlacesModel.swift */; };
+		86788C0D2A3F650700CBA564 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C0C2A3F650700CBA564 /* PlacesViewModel.swift */; };
+		86788C102A3F666800CBA564 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C0F2A3F666800CBA564 /* PlaceView.swift */; };
+		86788C122A3F668E00CBA564 /* PlaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C112A3F668E00CBA564 /* PlaceCardView.swift */; };
+		86788C142A3F66A800CBA564 /* PlaceMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C132A3F66A800CBA564 /* PlaceMapAnnotation.swift */; };
+		86788C162A3F6BD400CBA564 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C152A3F6BD400CBA564 /* PlaceDetailView.swift */; };
+		86788C182A3F75DE00CBA564 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C172A3F75DE00CBA564 /* Bar.swift */; };
+		86788C1A2A3F803800CBA564 /* CurrentLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C192A3F803800CBA564 /* CurrentLocationViewModel.swift */; };
+		86788C1E2A3FA14F00CBA564 /* AddNewPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C1D2A3FA14F00CBA564 /* AddNewPlace.swift */; };
+		86788C282A3FA2D600CBA564 /* PickImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C272A3FA2D600CBA564 /* PickImage.swift */; };
+		86788C2C2A3FA3F600CBA564 /* AddGuideInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86788C2B2A3FA3F600CBA564 /* AddGuideInformation.swift */; };
+		868FB4A72A406AC20006914A /* AddGuideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868FB4A62A406AC20006914A /* AddGuideViewModel.swift */; };
+		8697806C2A41005300EBB9F9 /* GuideListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697806B2A41005300EBB9F9 /* GuideListModel.swift */; };
+		8697806E2A4102E600EBB9F9 /* GuideListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697806D2A4102E600EBB9F9 /* GuideListViewModel.swift */; };
+		869C93632A41A91600863E2A /* GuideListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C93622A41A91600863E2A /* GuideListInfo.swift */; };
+		869C936A2A42DC3E00863E2A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C93692A42DC3E00863E2A /* TabBar.swift */; };
+		869C936C2A42E72000863E2A /* MapLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C936B2A42E72000863E2A /* MapLayer.swift */; };
+		869C936E2A42FDBE00863E2A /* CardPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C936D2A42FDBE00863E2A /* CardPlaces.swift */; };
+		86A47AAF2A40421100A81C99 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A47AAE2A40421100A81C99 /* StartPage.swift */; };
+		86A47AB12A40426700A81C99 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A47AB02A40426700A81C99 /* OTPViewModel.swift */; };
+		86A47AB32A40429200A81C99 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A47AB22A40429200A81C99 /* SignIn.swift */; };
+		86A47AB52A4042DC00A81C99 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A47AB42A4042DC00A81C99 /* SignUp.swift */; };
+		86A47AB82A40436500A81C99 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 86A47AB72A40436500A81C99 /* FirebaseAuth */; };
+		86A47ABA2A40436500A81C99 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 86A47AB92A40436500A81C99 /* FirebaseFirestore */; };
+		86A47ABC2A40436500A81C99 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 86A47ABB2A40436500A81C99 /* FirebaseFirestoreSwift */; };
+		86A47ABE2A4043D100A81C99 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A47ABD2A4043D100A81C99 /* OTPView.swift */; };
+		86A47AC02A404B8A00A81C99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86A47ABF2A404B8A00A81C99 /* GoogleService-Info.plist */; };
+		86A47AC22A404F1200A81C99 /* ChooseGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A47AC12A404F1200A81C99 /* ChooseGuide.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86788BF42A3F632700CBA564 /* MakanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86788BF72A3F632700CBA564 /* MakanAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakanAppApp.swift; sourceTree = "<group>"; };
+		86788BF92A3F632700CBA564 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86788BFB2A3F632800CBA564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86788BFE2A3F632800CBA564 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86788C062A3F639300CBA564 /* PlacesDataSerivces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesDataSerivces.swift; sourceTree = "<group>"; };
+		86788C092A3F63E300CBA564 /* PlacesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesModel.swift; sourceTree = "<group>"; };
+		86788C0C2A3F650700CBA564 /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		86788C0F2A3F666800CBA564 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		86788C112A3F668E00CBA564 /* PlaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCardView.swift; sourceTree = "<group>"; };
+		86788C132A3F66A800CBA564 /* PlaceMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMapAnnotation.swift; sourceTree = "<group>"; };
+		86788C152A3F6BD400CBA564 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		86788C172A3F75DE00CBA564 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		86788C192A3F803800CBA564 /* CurrentLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewModel.swift; sourceTree = "<group>"; };
+		86788C1D2A3FA14F00CBA564 /* AddNewPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPlace.swift; sourceTree = "<group>"; };
+		86788C272A3FA2D600CBA564 /* PickImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickImage.swift; sourceTree = "<group>"; };
+		86788C2B2A3FA3F600CBA564 /* AddGuideInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuideInformation.swift; sourceTree = "<group>"; };
+		868FB4A62A406AC20006914A /* AddGuideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuideViewModel.swift; sourceTree = "<group>"; };
+		8697806B2A41005300EBB9F9 /* GuideListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideListModel.swift; sourceTree = "<group>"; };
+		8697806D2A4102E600EBB9F9 /* GuideListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideListViewModel.swift; sourceTree = "<group>"; };
+		869C93622A41A91600863E2A /* GuideListInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideListInfo.swift; sourceTree = "<group>"; };
+		869C93682A42942700863E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		869C93692A42DC3E00863E2A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		869C936B2A42E72000863E2A /* MapLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayer.swift; sourceTree = "<group>"; };
+		869C936D2A42FDBE00863E2A /* CardPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPlaces.swift; sourceTree = "<group>"; };
+		86A47AAE2A40421100A81C99 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		86A47AB02A40426700A81C99 /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
+		86A47AB22A40429200A81C99 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		86A47AB42A4042DC00A81C99 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		86A47ABD2A4043D100A81C99 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		86A47ABF2A404B8A00A81C99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86A47AC12A404F1200A81C99 /* ChooseGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGuide.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86788BF12A3F632700CBA564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A47AB82A40436500A81C99 /* FirebaseAuth in Frameworks */,
+				86A47ABA2A40436500A81C99 /* FirebaseFirestore in Frameworks */,
+				86A47ABC2A40436500A81C99 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86788BEB2A3F632700CBA564 = {
+			isa = PBXGroup;
+			children = (
+				86788BF62A3F632700CBA564 /* MakanApp */,
+				86788BF52A3F632700CBA564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86788BF52A3F632700CBA564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86788BF42A3F632700CBA564 /* MakanApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86788BF62A3F632700CBA564 /* MakanApp */ = {
+			isa = PBXGroup;
+			children = (
+				869C93682A42942700863E2A /* Info.plist */,
+				86788BF72A3F632700CBA564 /* MakanAppApp.swift */,
+				86788BF92A3F632700CBA564 /* ContentView.swift */,
+				86788C052A3F635300CBA564 /* DataServices */,
+				86788C0B2A3F64CB00CBA564 /* ViewModel */,
+				86788C0E2A3F663000CBA564 /* View */,
+				86788BFB2A3F632800CBA564 /* Assets.xcassets */,
+				86A47ABF2A404B8A00A81C99 /* GoogleService-Info.plist */,
+				86788BFD2A3F632800CBA564 /* Preview Content */,
+			);
+			path = MakanApp;
+			sourceTree = "<group>";
+		};
+		86788BFD2A3F632800CBA564 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86788BFE2A3F632800CBA564 /* Preview Assets.xcassets */,
+				86788C172A3F75DE00CBA564 /* Bar.swift */,
+				86788C272A3FA2D600CBA564 /* PickImage.swift */,
+				869C936B2A42E72000863E2A /* MapLayer.swift */,
+				869C936D2A42FDBE00863E2A /* CardPlaces.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86788C052A3F635300CBA564 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				86788C062A3F639300CBA564 /* PlacesDataSerivces.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		86788C0B2A3F64CB00CBA564 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86788C192A3F803800CBA564 /* CurrentLocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86788C0E2A3F663000CBA564 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				869C93692A42DC3E00863E2A /* TabBar.swift */,
+				869C93662A4286A000863E2A /* LogIn */,
+				869C93642A42861300863E2A /* Places */,
+				868FB4A82A406C6D0006914A /* AddGuide */,
+				8697806A2A40FFF300EBB9F9 /* GuideList */,
+				869C93672A4286D600863E2A /* NewPlace */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		868FB4A82A406C6D0006914A /* AddGuide */ = {
+			isa = PBXGroup;
+			children = (
+				86788C2B2A3FA3F600CBA564 /* AddGuideInformation.swift */,
+				868FB4A62A406AC20006914A /* AddGuideViewModel.swift */,
+			);
+			path = AddGuide;
+			sourceTree = "<group>";
+		};
+		8697806A2A40FFF300EBB9F9 /* GuideList */ = {
+			isa = PBXGroup;
+			children = (
+				86A47AC12A404F1200A81C99 /* ChooseGuide.swift */,
+				8697806B2A41005300EBB9F9 /* GuideListModel.swift */,
+				8697806D2A4102E600EBB9F9 /* GuideListViewModel.swift */,
+				869C93622A41A91600863E2A /* GuideListInfo.swift */,
+			);
+			path = GuideList;
+			sourceTree = "<group>";
+		};
+		869C93642A42861300863E2A /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				86788C092A3F63E300CBA564 /* PlacesModel.swift */,
+				86788C0C2A3F650700CBA564 /* PlacesViewModel.swift */,
+				86788C0F2A3F666800CBA564 /* PlaceView.swift */,
+				86788C112A3F668E00CBA564 /* PlaceCardView.swift */,
+				86788C132A3F66A800CBA564 /* PlaceMapAnnotation.swift */,
+				86788C152A3F6BD400CBA564 /* PlaceDetailView.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		869C93662A4286A000863E2A /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				86A47AAE2A40421100A81C99 /* StartPage.swift */,
+				86A47AB42A4042DC00A81C99 /* SignUp.swift */,
+				86A47AB22A40429200A81C99 /* SignIn.swift */,
+				86A47ABD2A4043D100A81C99 /* OTPView.swift */,
+				86A47AB02A40426700A81C99 /* OTPViewModel.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		869C93672A4286D600863E2A /* NewPlace */ = {
+			isa = PBXGroup;
+			children = (
+				86788C1D2A3FA14F00CBA564 /* AddNewPlace.swift */,
+			);
+			path = NewPlace;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86788BF32A3F632700CBA564 /* MakanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86788C022A3F632800CBA564 /* Build configuration list for PBXNativeTarget "MakanApp" */;
+			buildPhases = (
+				86788BF02A3F632700CBA564 /* Sources */,
+				86788BF12A3F632700CBA564 /* Frameworks */,
+				86788BF22A3F632700CBA564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakanApp;
+			packageProductDependencies = (
+				86A47AB72A40436500A81C99 /* FirebaseAuth */,
+				86A47AB92A40436500A81C99 /* FirebaseFirestore */,
+				86A47ABB2A40436500A81C99 /* FirebaseFirestoreSwift */,
+			);
+			productName = MakanApp;
+			productReference = 86788BF42A3F632700CBA564 /* MakanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86788BEC2A3F632700CBA564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					86788BF32A3F632700CBA564 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 86788BEF2A3F632700CBA564 /* Build configuration list for PBXProject "MakanApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86788BEB2A3F632700CBA564;
+			packageReferences = (
+				86A47AB62A40436500A81C99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 86788BF52A3F632700CBA564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86788BF32A3F632700CBA564 /* MakanApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86788BF22A3F632700CBA564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A47AC02A404B8A00A81C99 /* GoogleService-Info.plist in Resources */,
+				86788BFF2A3F632800CBA564 /* Preview Assets.xcassets in Resources */,
+				86788BFC2A3F632800CBA564 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86788BF02A3F632700CBA564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86788C102A3F666800CBA564 /* PlaceView.swift in Sources */,
+				86A47AB32A40429200A81C99 /* SignIn.swift in Sources */,
+				86788C142A3F66A800CBA564 /* PlaceMapAnnotation.swift in Sources */,
+				86788C122A3F668E00CBA564 /* PlaceCardView.swift in Sources */,
+				86788C0D2A3F650700CBA564 /* PlacesViewModel.swift in Sources */,
+				86A47ABE2A4043D100A81C99 /* OTPView.swift in Sources */,
+				86A47AB12A40426700A81C99 /* OTPViewModel.swift in Sources */,
+				868FB4A72A406AC20006914A /* AddGuideViewModel.swift in Sources */,
+				86A47AAF2A40421100A81C99 /* StartPage.swift in Sources */,
+				86788C1E2A3FA14F00CBA564 /* AddNewPlace.swift in Sources */,
+				869C936C2A42E72000863E2A /* MapLayer.swift in Sources */,
+				86788C282A3FA2D600CBA564 /* PickImage.swift in Sources */,
+				86788C2C2A3FA3F600CBA564 /* AddGuideInformation.swift in Sources */,
+				86788C162A3F6BD400CBA564 /* PlaceDetailView.swift in Sources */,
+				86788C182A3F75DE00CBA564 /* Bar.swift in Sources */,
+				8697806E2A4102E600EBB9F9 /* GuideListViewModel.swift in Sources */,
+				8697806C2A41005300EBB9F9 /* GuideListModel.swift in Sources */,
+				86788C072A3F639300CBA564 /* PlacesDataSerivces.swift in Sources */,
+				86788C0A2A3F63E300CBA564 /* PlacesModel.swift in Sources */,
+				86788C1A2A3F803800CBA564 /* CurrentLocationViewModel.swift in Sources */,
+				86A47AB52A4042DC00A81C99 /* SignUp.swift in Sources */,
+				869C93632A41A91600863E2A /* GuideListInfo.swift in Sources */,
+				86A47AC22A404F1200A81C99 /* ChooseGuide.swift in Sources */,
+				869C936A2A42DC3E00863E2A /* TabBar.swift in Sources */,
+				86788BFA2A3F632700CBA564 /* ContentView.swift in Sources */,
+				86788BF82A3F632700CBA564 /* MakanAppApp.swift in Sources */,
+				869C936E2A42FDBE00863E2A /* CardPlaces.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86788C002A3F632800CBA564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86788C012A3F632800CBA564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86788C032A3F632800CBA564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MakanApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZF32X3A9ZL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MakanApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloud.MakanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86788C042A3F632800CBA564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MakanApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZF32X3A9ZL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MakanApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloud.MakanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86788BEF2A3F632700CBA564 /* Build configuration list for PBXProject "MakanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86788C002A3F632800CBA564 /* Debug */,
+				86788C012A3F632800CBA564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86788C022A3F632800CBA564 /* Build configuration list for PBXNativeTarget "MakanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86788C032A3F632800CBA564 /* Debug */,
+				86788C042A3F632800CBA564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86A47AB62A40436500A81C99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86A47AB72A40436500A81C99 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A47AB62A40436500A81C99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		86A47AB92A40436500A81C99 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A47AB62A40436500A81C99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		86A47ABB2A40436500A81C99 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A47AB62A40436500A81C99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 86788BEC2A3F632700CBA564 /* Project object */;
+}
